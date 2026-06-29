@@ -16,3 +16,16 @@ else{
  console.log('chocolate kine dibo')
 }
 
+// 2nd problem 
+let lastDay = 6;
+let schedule =[];
+for(let day = 1; day<=lastDay; day++){
+if(day%3===0){
+schedule.push(day+ 'medicine')
+}
+else{
+ schedule.push(day + 'rest')
+}
+}
+
+console.log(schedule)
